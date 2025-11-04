@@ -22,7 +22,7 @@ public class OperaçoesMatematicas {
         System.out.println("Digite outro número: ");
         int d = sc.nextInt();
 
-        System.out.println("Multiplicação: " + (a * b));
+        System.out.println("Multiplicação: " + (c * d));
 
         System.out.println("=== Divisão Simples===");
 
@@ -32,6 +32,8 @@ public class OperaçoesMatematicas {
         System.out.println("Digite outro número: ");
         int f = sc.nextInt();
 
-        System.out.println("Divisão: " + (a / b));
+        System.out.println("Divisão: " + (e / f));
+
+        sc.close();
     }
 }

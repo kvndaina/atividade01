@@ -2,16 +2,18 @@ import java.util.Scanner;
 
 public class SomaSimples {
     public static void main(String[] args) {
-        System.out.println("=== SOMA SIMPLES===");
+        Scanner sc = new Scanner(System.in);
 
-        Scanner sc = new  Scanner(System.in);
-
-        System.out.println("Digite um número: ");
+        System.out.println("Digite o primeiro número: ");
         int a = sc.nextInt();
 
-        System.out.println("Digite outro número: ");
+        System.out.println("Digite o segundo número: ");
         int b = sc.nextInt();
 
-        System.out.println("Soma: " + (a + b));
+        int soma = a + b;
+
+        System.out.println("A soma é: " + soma);
+
+        sc.close();
     }
 }
